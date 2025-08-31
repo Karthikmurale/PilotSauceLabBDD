@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PilotProjectUI Test Suite" parallel="true" thread-count="3">
+    <test name="Cucumber TestRunner">
+        <classes>
+            <class name="TestRunner.TestRunnerTest"/>
+        </classes>
+    </test>
+</suite>
+

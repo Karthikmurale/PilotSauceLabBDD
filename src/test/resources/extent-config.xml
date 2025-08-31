@@ -1,0 +1,10 @@
+<extentreports>
+    <configuration>
+        <theme>dark</theme>
+        <encoding>utf-8</encoding>
+        <protocol>https</protocol>
+        <timelineEnabled>true</timelineEnabled>
+        <documentTitle>Automation Report</documentTitle>
+        <reportName>BDD Selenium Execution</reportName>
+    </configuration>
+</extentreports>
