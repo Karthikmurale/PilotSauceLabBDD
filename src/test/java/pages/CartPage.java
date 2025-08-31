@@ -1,6 +1,8 @@
 package pages;
 
 import core.TestFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,6 +11,8 @@ import org.openqa.selenium.support.How;
 
 
 public class CartPage {
+
+    private static final Logger logger = LogManager.getLogger(CartPage.class);
 
     private WebDriver driver;
 
@@ -26,6 +30,7 @@ public class CartPage {
     public void selectCart() {
         try {
             TestFactory.clickElement(driver,btnShoppingcart);
+            logger.info("Info - The Cart has been selected");
             System.out.println("The Cart has been selected");
         } catch (Exception e) {
             throw new RuntimeException("The exception displayed is "+e);
@@ -36,6 +41,7 @@ public class CartPage {
         try {
             TestFactory.clickElement(driver,btnCheckout);
             System.out.println("The Checkout button has been selected");
+            logger.info("The Checkout button has been selected");
         } catch (Exception e) {
             throw new RuntimeException("The exception displayed is "+e);
         }
@@ -48,6 +54,7 @@ public class CartPage {
            if(data.equalsIgnoreCase(product))
            {
                System.out.println("The Product displayed in the cart is "+product);
+               logger.info("The Product displayed in the cart is "+product);
            }
         } catch (Exception e) {
             throw new RuntimeException("The exception displayed is "+e);

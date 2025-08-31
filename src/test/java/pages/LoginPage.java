@@ -1,6 +1,8 @@
 package pages;
 
 import core.TestFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,6 +12,8 @@ import static org.testng.Assert.assertEquals;
 
 
 public class LoginPage {
+
+    private static final Logger logger = LogManager.getLogger(LoginPage.class);
 
     private WebDriver driver;
 
@@ -41,6 +45,7 @@ public class LoginPage {
             TestFactory.writeText(userName, username);
             TestFactory.writeText(pwd, password);
             System.out.println("Username and password entered: " + username + ", " + password);
+            logger.info("Info - Username and password entered: " + username + ", " + password);
         } catch (Exception e) {
             throw new RuntimeException("Failed to enter username & Password: " + e.getMessage());
         }
@@ -60,6 +65,7 @@ public class LoginPage {
         try{
            String WebName =  TestFactory.gettext(logoText);
             System.out.println("Pass - The Logo text displayed is "+WebName);
+            logger.info("Info - Pass - The Logo text displayed is {}", WebName);
            assertEquals("Swag Labs", WebName, "Login verification Passed");
         }
         catch(Exception e)
@@ -75,6 +81,7 @@ public class LoginPage {
             String txtHomepage =  TestFactory.gettext(txtProducts);
             assertEquals("Products", txtHomepage, "Homepage verification Passed");
             System.out.println("Pass - Homepage displayed as expected");
+            logger.info("Info - Pass - Homepage displayed as expected");
         }
         catch(Exception e)
         {

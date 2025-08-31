@@ -20,7 +20,7 @@ Feature: Commerce Test Cases
     Then I click finish button in checkout page
 
   @BackPackOrder
-  Scenario: Verify Sauce Labs Bolt TShirt
+  Scenario: Verify Sauce Labs Backpack
     Given I am on the login page
     When I enter my "standard_user" and "secret_sauce"
     And I click on the login button

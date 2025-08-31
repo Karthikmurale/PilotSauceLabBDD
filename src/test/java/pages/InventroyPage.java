@@ -1,6 +1,8 @@
 package pages;
 
 import core.TestFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,6 +15,8 @@ import static org.testng.Assert.assertEquals;
 public class InventroyPage {
 
     private WebDriver driver;
+
+    private static final Logger logger = LogManager.getLogger(InventroyPage.class);
 
     @FindBy(how = How.XPATH, using = "//div[text()='Sauce Labs Bike Light']/ancestor::div[1]/following-sibling::div//button[text()='ADD TO CART']")
     private WebElement btnAddtoCart;

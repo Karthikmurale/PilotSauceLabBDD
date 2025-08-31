@@ -1,6 +1,8 @@
 package pages;
 
 import core.TestFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,6 +11,8 @@ import org.openqa.selenium.support.How;
 
 
 public class CheckoutPage {
+
+    private static final Logger logger = LogManager.getLogger(CheckoutPage.class);
 
     private WebDriver driver;
 
@@ -40,6 +44,7 @@ public class CheckoutPage {
             TestFactory.writeText(txtLastName,lastName);
             TestFactory.writeText(txtPostalCode,postcode);
             System.out.println("The Firstname, Lastname and Postalcode has been entered"+firstname +lastName +postcode);
+            logger.info("Info - The Firstname, Lastname and Postalcode has been entered"+firstname +lastName +postcode);
         } catch (Exception e) {
             throw new RuntimeException("The exception displayed is "+e);
         }
@@ -49,6 +54,7 @@ public class CheckoutPage {
         try {
             TestFactory.clickElement(driver,btnContinue);
             System.out.println("The Continue button has been selected");
+            logger.info("Info - The Continue button has been selected");
         } catch (Exception e) {
             throw new RuntimeException("The exception displayed is "+e);
         }
@@ -58,6 +64,7 @@ public class CheckoutPage {
         try {
             TestFactory.clickElement(driver,btnFinish);
             System.out.println("The Finish button has been clicked");
+            logger.info("Info - The Finish button has been clicked");
         } catch (Exception e) {
             throw new RuntimeException("The exception displayed is "+e);
         }
@@ -70,6 +77,8 @@ public class CheckoutPage {
            if(data.equalsIgnoreCase(product))
            {
                System.out.println("The Product displayed in the cart is "+product);
+               logger.info("The Product displayed in the cart is {}", product);
+
            }
         } catch (Exception e) {
             throw new RuntimeException("The exception displayed is "+e);
