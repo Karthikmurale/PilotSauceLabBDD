@@ -1,0 +1,42 @@
+2025-08-31 22:24:37 INFO  LoginPage:68 - Info - Pass - The Logo text displayed is Swag Labs
+2025-08-31 22:24:37 INFO  LoginPage:68 - Info - Pass - The Logo text displayed is Swag Labs
+2025-08-31 22:24:37 INFO  LoginPage:68 - Info - Pass - The Logo text displayed is Swag Labs
+2025-08-31 22:24:38 INFO  LoginPage:48 - Info - Username and password entered: standard_user, secret_sauce
+2025-08-31 22:24:38 INFO  LoginPage:48 - Info - Username and password entered: standard_user, secret_sauce
+2025-08-31 22:24:38 INFO  LoginPage:48 - Info - Username and password entered: standard_user, secret_sauce
+2025-08-31 22:24:42 INFO  LoginPage:84 - Info - Pass - Homepage displayed as expected
+2025-08-31 22:24:43 INFO  LoginPage:84 - Info - Pass - Homepage displayed as expected
+2025-08-31 22:24:43 INFO  LoginPage:84 - Info - Pass - Homepage displayed as expected
+2025-08-31 22:24:52 INFO  CartPage:33 - Info - The Cart has been selected
+2025-08-31 22:24:52 INFO  CartPage:57 - The Product displayed in the cart is Sauce Labs Backpack
+2025-08-31 22:24:52 INFO  CartPage:33 - Info - The Cart has been selected
+2025-08-31 22:24:53 INFO  CartPage:57 - The Product displayed in the cart is Sauce Labs Bolt T-Shirt
+2025-08-31 22:24:57 INFO  CartPage:44 - The Checkout button has been selected
+2025-08-31 22:24:57 INFO  CartPage:44 - The Checkout button has been selected
+2025-08-31 22:24:59 INFO  CheckoutPage:47 - Info - The Firstname, Lastname and Postalcode has been enteredjosephvijay603945
+2025-08-31 22:25:00 INFO  CheckoutPage:47 - Info - The Firstname, Lastname and Postalcode has been enteredjosephvijay603945
+2025-08-31 22:25:03 INFO  CheckoutPage:57 - Info - The Continue button has been selected
+2025-08-31 22:25:05 INFO  CheckoutPage:57 - Info - The Continue button has been selected
+2025-08-31 22:25:07 INFO  CheckoutPage:67 - Info - The Finish button has been clicked
+2025-08-31 22:25:09 INFO  CheckoutPage:67 - Info - The Finish button has been clicked
+2025-08-31 22:29:11 INFO  LoginPage:68 - Info - Pass - The Logo text displayed is Swag Labs
+2025-08-31 22:29:11 INFO  LoginPage:68 - Info - Pass - The Logo text displayed is Swag Labs
+2025-08-31 22:29:11 INFO  LoginPage:68 - Info - Pass - The Logo text displayed is Swag Labs
+2025-08-31 22:29:12 INFO  LoginPage:48 - Info - Username and password entered: standard_user, secret_sauce
+2025-08-31 22:29:13 INFO  LoginPage:48 - Info - Username and password entered: standard_user, secret_sauce
+2025-08-31 22:29:13 INFO  LoginPage:48 - Info - Username and password entered: standard_user, secret_sauce
+2025-08-31 22:29:17 INFO  LoginPage:84 - Info - Pass - Homepage displayed as expected
+2025-08-31 22:29:17 INFO  LoginPage:84 - Info - Pass - Homepage displayed as expected
+2025-08-31 22:29:18 INFO  LoginPage:84 - Info - Pass - Homepage displayed as expected
+2025-08-31 22:29:26 INFO  CartPage:33 - Info - The Cart has been selected
+2025-08-31 22:29:26 INFO  CartPage:57 - The Product displayed in the cart is Sauce Labs Backpack
+2025-08-31 22:29:27 INFO  CartPage:33 - Info - The Cart has been selected
+2025-08-31 22:29:27 INFO  CartPage:57 - The Product displayed in the cart is Sauce Labs Bolt T-Shirt
+2025-08-31 22:29:31 INFO  CartPage:44 - The Checkout button has been selected
+2025-08-31 22:29:31 INFO  CartPage:44 - The Checkout button has been selected
+2025-08-31 22:29:32 INFO  CheckoutPage:47 - Info - The Firstname, Lastname and Postalcode has been enteredjosephvijay603945
+2025-08-31 22:29:32 INFO  CheckoutPage:47 - Info - The Firstname, Lastname and Postalcode has been enteredjosephvijay603945
+2025-08-31 22:29:36 INFO  CheckoutPage:57 - Info - The Continue button has been selected
+2025-08-31 22:29:37 INFO  CheckoutPage:57 - Info - The Continue button has been selected
+2025-08-31 22:29:41 INFO  CheckoutPage:67 - Info - The Finish button has been clicked
+2025-08-31 22:29:41 INFO  CheckoutPage:67 - Info - The Finish button has been clicked
